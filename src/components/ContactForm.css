@@ -1,0 +1,36 @@
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.contact-form input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #ff7f27;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ✅ Responsive */
+@media (max-width: 480px) {
+  .contact-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form input {
+    width: 90%;
+  }
+  .contact-form button {
+    width: 90%;
+  }
+}

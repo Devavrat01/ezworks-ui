@@ -1,0 +1,27 @@
+.service-card {
+    background-color: #092c4c;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    width: 180px;
+}
+  
+.title {
+    background-color: #092c4c;
+    color: #26a8ff;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Creates space between icon and title */
+}
+  
+.icon {
+    background-color: #092c4c;
+    font-size: 20px;
+}
+  
+.description {
+    background-color: #092c4c;
+    color: #ffffff;
+}
